@@ -10,4 +10,6 @@ $application = new Application();
 
 // ... register commands
 
+$application->add(new \App\CsvToJsonCommand());
+
 $application->run();
